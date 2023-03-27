@@ -1,63 +1,68 @@
-import img0 from "./img/img0.jpg"
-import img1 from "./img/img1.jpg"
-import img2 from "./img/img2.jpg"
-import img3 from "./img/img3.jpg"
-import img4 from "./img/img4.jpg"
-import img5 from "./img/img5.jpg"
-import img6 from "./img/img6.jpg"
-import img7 from "./img/img7.jpg"
-import img8 from "./img/img8.jpg"
-import img9 from "./img/img9.jpg"
+import img0 from "./img/img0.jpeg"
+import img1 from "./img/img1.jpeg"
+import img2 from "./img/img2.jpeg"
+import img3 from "./img/img3.jpeg"
+import img4 from "./img/img4.jpeg"
+import img5 from "./img/img5.jpeg"
+import img6 from "./img/img6.jpeg"
+import img7 from "./img/img7.jpeg"
+import img8 from "./img/img8.jpeg"
 
 export const data = [
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img0 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img1 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img2 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img3 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img4 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img5 ,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img6,
-    // },
-    // {
-    //     name: "arjuk",
-    //     price: "100 Դր",
-    //     img: img7 ,
-    // },
     {
-        name: "arjuk",
-        price: "100 Դր",
-        img: img8 ,
+        id: "1001",
+        count: 1,
+        price: 100,
+        img: img0 ,
+    },
+    
+    {
+        id: "1002",
+        count: 1,
+        price: 100,
+        img: img1 ,
     },
     {
-        name: "arjuk",
-        price: "100 Դր",
-        img: img9 ,
-    }
+        id: "1003",
+        count: 1,
+        price: 100,
+        img: img2 ,
+    },
+    {
+        id: "1004",
+        count: 1,
+        price: 100,
+        img: img3 ,
+    },
+    {
+        id: "1005",
+        count: 1,
+        price: 100,
+        img: img4 ,
+    },
+    {
+        id: "1006",
+        count: 1,
+        price: 100,
+        img: img5 ,
+    },
+    {
+        id: "1007",
+        count: 1,
+        price: 100,
+        img: img6,
+    },
+    {
+        id: "1008",
+        count: 1,
+        price: 100,
+        img: img7 ,
+    },
+    {
+        id: "1009",
+        count: 1,
+        price: 100,
+        img: img8 ,
+    },
+  
 ]

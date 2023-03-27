@@ -12,7 +12,7 @@ const BurgerMenu = () => {
             <li><Link  to={"/about"}>About</Link></li>
             <li><Link style={{position:"absolute"}} to={"/basket"}><SlBasket/></Link></li>
         </ul>
-        <summary style={{listStyle:"none",}}><AiOutlineMenu  style={{fontSize: "30px"} }/></summary>
+        <summary style={{listStyle:"none", cursor: "pointer", width:"fit-content"}}><AiOutlineMenu  style={{fontSize: "30px"} }/></summary>
     </details>
   )
 }
