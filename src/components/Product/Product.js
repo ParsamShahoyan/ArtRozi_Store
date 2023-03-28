@@ -12,8 +12,8 @@ const Product = ({ id, price, img, count, active }) => {
   }, []);
   const addBasket = (e) => {
     dispatch(addToBasket({ id, price, img, count, active }));
-    e.target.classList.add("active");
-    e.currentTarget.classList.add("active");
+    e.target.classList.add("act");
+    e.currentTarget.classList.add("act");
   };
   return (
     <div className="product">
@@ -24,13 +24,12 @@ const Product = ({ id, price, img, count, active }) => {
       <button onClick={addBasket}>
         <SlBasket />
       </button>
-      {modalActive ? (
+      {modalActive ? 
         <Modal active={modalActive} setactive={setModalActive}>
           {img}
         </Modal>
-      ) : (
-        ""
-      )}
+       : ""
+      }
     </div>
   );
 };

@@ -9,11 +9,11 @@ const Products = () => {
   return (
     <article>
         <Slider/>
-        <div className="between">
+        {/* <div className="between">
           <hr />
           <h2>Տեսականին</h2>
           <hr />
-        </div>
+        </div> */}
         <div className="blue_rigth"> </div>
           <div className='products'>
             {
