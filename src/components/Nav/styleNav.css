@@ -1,0 +1,80 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+nav .nav_mobi img {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 40px;
+}
+nav .nav_mobi a {
+  font-size: 30px;
+  font-size: 30px;
+  color: black;
+}
+nav .nav_div {
+  max-width: 1349px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FCFCFC;
+}
+nav .nav_div img {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 60px;
+}
+nav .nav_div a {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav .nav_div a:nth-of-type(4) {
+  font-size: 30px;
+  font-size: 30px;
+  color: black;
+}
+nav .nav_div .active {
+  border-bottom: 3px solid rgb(23, 23, 23);
+  opacity: 0.8;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+nav .count_mobi {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  font-size: 18px;
+}
+nav .count {
+  position: absolute;
+  font-size: 18px;
+  right: -8px;
+  top: -10px;
+}
+
+@media only screen and (max-width: 100vw) {
+  nav .nav_mobi {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav .nav_mobi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  nav .nav_div {
+    display: none;
+  }
+}/*# sourceMappingURL=styleNav.css.map */

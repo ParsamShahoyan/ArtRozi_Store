@@ -4,8 +4,9 @@ import { decrement, delItem, increment } from '../../store/slices/basketSlice'
 import { TiDeleteOutline } from "react-icons/ti"
 import { AiOutlinePlus } from "react-icons/ai"
 import { AiOutlineMinus } from "react-icons/ai"
+import { v4 } from 'uuid'
 
-const BasketItem = ({img, id, price, count}) => {
+const BasketItem = ({img, id, price, count, checked}) => {
   
     const dispatch = useDispatch()
     const inc = () => {
@@ -19,7 +20,7 @@ const BasketItem = ({img, id, price, count}) => {
     }
 
     return (
-    <div className='item' key={id}>
+    <div className='item' key={v4()}>
         <h2 onClick={delet}><TiDeleteOutline/></h2>
         <img src={img} alt="" />
         <p>ID: {id}</p>

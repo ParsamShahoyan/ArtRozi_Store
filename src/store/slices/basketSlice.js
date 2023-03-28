@@ -4,10 +4,11 @@ const basketSlice = createSlice({
     name: "basket",
     initialState: [],
     reducers: {
-        addToBasket: (state, {payload}) => {          
+        addToBasket: (state, {payload}) => {   
+                        
             return [
                 ...state,
-                payload,
+                payload
             ]      
         },
         delItem: (state, {payload}) => {
@@ -26,8 +27,7 @@ const basketSlice = createSlice({
                 state[idx].price -= state[idx].price / state[idx].count
                 state[idx].count--
             }
-
-        }
+        },
     }
 })
 

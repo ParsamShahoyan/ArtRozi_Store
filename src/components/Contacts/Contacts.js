@@ -24,7 +24,6 @@ export const Contacts = () => {
   return (
     <div className="form_container">
       <div className="blue">
-        <button onClick={() => navigat(-1)}>{"<"}</button>
         <form ref={form} onSubmit={sendEmail}>
           <label >Անուն</label>
           <input type="text" name="user_name" required />

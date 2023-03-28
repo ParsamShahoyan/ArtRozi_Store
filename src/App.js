@@ -6,6 +6,7 @@ import About from "./components/About/About"
 import Basket from "./components/Basket/Basket"
 import { Contacts } from "./components/Contacts/Contacts"
 import End from './components/End/End';
+import Error from './components/404/Error';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Products/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/basket' element={<Basket/>}/>
+          <Route path='/basket/null' element={<Error/>}/>
           <Route path='/basket/send' element={<Contacts/>}/>
           <Route path='/basket/send/end' element={<End/>}/>
         </Route>

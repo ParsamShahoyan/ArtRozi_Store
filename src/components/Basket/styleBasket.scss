@@ -14,7 +14,7 @@
             box-shadow: 0px 13px 28px 0px rgba(0,0,0,0.75);
             -webkit-box-shadow: 0px 13px 28px 0px rgba(0,0,0,0.75);
             -moz-box-shadow: 0px 13px 28px 0px rgba(0,0,0,0.75);
-            width: 70vw;
+            width: 75vw;
             margin: 20px 40%;
             position: relative;
             display: grid;
@@ -29,15 +29,15 @@
                 cursor: pointer;
             }
             img{
-                max-width: 100px;
-                position:relative;
-
+                max-width: 120px;
+                position: relative;
+                margin: 20px;
             }
             p{
                 position: absolute;
-                bottom: 10px;
-                left: 10px;
-                color: white;
+                bottom: 0;
+                left: 20px;
+                color: rgb(66, 66, 66);
             }
             span{
                 font-size: 20px;
@@ -47,6 +47,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                padding-right: 3px;
                 button{
                     width: 25px;
                     height: 25px;
@@ -61,7 +62,7 @@
                     }
                 }
                 h3{
-                    margin: 10%;
+                    margin: 5%;
                     
                 }
                 

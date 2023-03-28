@@ -5,20 +5,24 @@ import { v4 } from "uuid"
 import "./style.scss"
 import Slider from '../Swiper/Slider'
 
-
 const Products = () => {
   return (
-    <div>
+    <article>
         <Slider/>
-    <div className='products'>
-        {
-            data.map(product => {
-              return <Product {...product} key={v4()}/>
-            })
-        }
-        
-    </div>
-    </div>
+        <div className="between">
+          <hr />
+          <h2>Տեսականին</h2>
+          <hr />
+        </div>
+        <div className="blue_rigth"> </div>
+          <div className='products'>
+            {
+              data.map(product => {
+                return <Product {...product} key={v4()}/>
+              })
+            }
+        </div>
+    </article>
   )
 }
 

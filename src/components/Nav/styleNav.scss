@@ -23,7 +23,7 @@ nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        background-color: #FCFCFC;
         img{
             width: fit-content;
             height: 60px;
@@ -72,7 +72,6 @@ nav{
 @media only screen and (max-width: 768px){
     nav{
         .nav_mobi{
-            // display:unset;
             display: flex;
             justify-content: space-between;
             align-items: center;
