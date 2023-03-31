@@ -20,7 +20,7 @@ const Nav = () => {
       <div className="nav_div">
         <Link to="/"><img src={logoM} alt="" /></Link>
         <NavLink  className='link' activeclassname="active" to="/"><h2 >Գլխավոր</h2></NavLink>
-        <NavLink  className='link' activeclassname='active' to="/about"><h2 >Առաքման մասին</h2></NavLink>
+        <NavLink  className='link' activeclassname='active' to="/about"><h2 >Առաքման</h2></NavLink>
         <Link  to={"/basket"}  style={{position: "relative"}}><SlBasket/><span className='count'>{basket.length}</span></Link> 
       </div>
     </nav>

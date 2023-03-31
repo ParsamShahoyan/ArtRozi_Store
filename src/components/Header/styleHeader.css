@@ -1,0 +1,39 @@
+header{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.header_img{
+    max-width: 100%;
+}
+.header_num{
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    color: rgb(28, 28, 28);
+}
+.header_p{
+    position: absolute;
+    max-width: 70%;
+    height: fit-content ;
+    font-weight: 500;
+    bottom:15%;
+    left: 9%;
+    background-color: rgba(0, 0, 0, 0.46);
+    padding: 5px;
+    color: white;
+}
+@media only screen and (max-width: 768px){
+    header{
+        margin-top: 50px;
+    }
+    .header_num{
+        top: 8px;
+        right: 7%;
+    }
+    .header_p{
+        font-size: 0.6em;
+        bottom: 4px
+    }
+}

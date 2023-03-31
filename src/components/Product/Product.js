@@ -20,7 +20,7 @@ const Product = ({ id, price, img, count, active }) => {
       <div className="img">
         <img onClick={() => setModalActive(true)} src={img} alt="" />
       </div>
-      <p>{price} Դր․</p>
+      <h4>{price} Դր․</h4>
       <button onClick={addBasket}>
         <SlBasket />
       </button>

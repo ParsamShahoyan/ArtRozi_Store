@@ -1,11 +1,11 @@
 
 
 .swiper {
-  width: 100%;
+  max-width: 982px;
   height: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #ffffff;
+  background: linear-gradient(to right, #B4E1E6,#F4B2AE);
 }
 
 .swiper-slide {

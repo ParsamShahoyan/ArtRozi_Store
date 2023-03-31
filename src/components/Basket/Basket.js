@@ -5,6 +5,7 @@ import "./styleBasket.scss"
 import { selectbasket } from '../../store/slices/basketSlice'
 import BasketItem from '../BasketItem/BasketItem'
 import { v4 } from 'uuid'
+import Footer from "../Footer/Footer"
 
 const Basket = () => {
   const navigate = useNavigate()
@@ -30,6 +31,7 @@ const Basket = () => {
         </h2>
       }
       <button className='buy' onClick={() => navigate("/basket/send")}>Գնել</button>
+      <Footer/>
     </div>
   )
 }

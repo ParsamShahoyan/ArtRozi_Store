@@ -1,12 +1,25 @@
-import React from 'react'
+import React from "react";
+import Footer from "../Footer/Footer";
+import { CiDeliveryTruck } from "react-icons/ci";
+import "./styleAbout.css";
 
 const About = () => {
   return (
     <div>
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias delectus fugit ullam similique ducimus sequi inventore asperiores accusantium cumque odit, praesentium, itaque, quasi reiciendis debitis qui sed et eius laborum esse modi expedita earum facere doloribus! Deserunt dolorum sequi pariatur alias rerum ex provident dicta ea dolores, vitae, voluptatibus quo.</h1>
-        
+      <section>
+        <div className="section">
+          <h3>
+            {<CiDeliveryTruck style={{ fontSize: "20px" }} />}Առաքման Պայմաններ</h3>
+            <p>Ա ) Առաքումը իրականացվում է Հայաստանում և Արցախում։</p>
+            <p>Բ) Առաքման ծառայության գինն է 1000 ՀՀ դրամ , ողջ Երևանի տարածքում։</p> 
+            <p>Գ) Մարզեր և Արցախ 500 ՀՀ դրամ Հայ Փոստի միջոցով:</p>
+            <p>Դ) Եթե միանվագ պատվերի գումարը գերազանցում է 30000 ՀՀ դրամը՝ առաքումն անվճար է։</p>  
+            <p>Ե) Առաքումն իրականացվում է Ձեր կողմից նշված հասցեյով , Ձեր կողմից ընտրված օրվա և ժամային գոտիներին համապատասխան։</p>
+        </div>
+      </section>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
