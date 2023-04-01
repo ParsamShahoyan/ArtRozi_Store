@@ -34,6 +34,7 @@ header{
     }
     .header_p{
         font-size: 0.6em;
-        bottom: 4px
+        bottom: 4px;
+        padding: 1px;
     }
 }

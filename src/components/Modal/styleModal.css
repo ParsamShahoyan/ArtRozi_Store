@@ -20,13 +20,22 @@
 .modal.active{
     transform: scale(1);
 }
+.delete{
+    display: none;
+}
 @media only screen and (max-width: 769px){
     .modal{
-       
     }
     .image{
         max-width: auto;
         height: 70%;
-
+    }
+    .delete{
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 70px;
+        right: 5px;
+        cursor: pointer;
     }
 }
