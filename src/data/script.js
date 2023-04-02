@@ -66,6 +66,7 @@ import img65 from "./img/img65.jpeg"
 import img66 from "./img/img66.jpeg"
 import img67 from "./img/img67.jpeg"
 import img68 from "./img/img68.jpeg"
+import img69 from "./img/img69.jpeg"
 
 
 export const data = [
@@ -126,7 +127,7 @@ export const data = [
     {
         id: "1010",
         count: 1,
-        price: 6000,
+        price: 2000,
         img: img10 ,
     },
     {
@@ -222,7 +223,7 @@ export const data = [
     {
         id: "1026",
         count: 1,
-        price: 6000,
+        price: 2000,
         img: img26 ,
     },
     {
@@ -477,7 +478,11 @@ export const data = [
         price: 5000,
         img: img68 ,
     },
-
-
+    {
+        id: "1069",
+        count: 1,
+        price: 7000,
+        img: img69 ,
+    },
   
 ]

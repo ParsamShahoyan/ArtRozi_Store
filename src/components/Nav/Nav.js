@@ -18,7 +18,7 @@ const Nav = () => {
         <Link style={{position:"absolute", right:"25px", top:"13px"}} to={"/basket"}><SlBasket  /> </Link><span className='count_mobi'>{basket.length}</span> 
       </div>
       <div className="nav_div">
-        <Link to="/"><img src={logoM} alt="" /></Link>
+        <Link to="/"><img src={logoM} alt="" style={{width: "80px"}} /></Link>
         <NavLink  className='link' activeclassname="active" to="/"><h2 >Գլխավոր</h2></NavLink>
         <NavLink  className='link' activeclassname='active' to="/about"><h2 >Առաքման</h2></NavLink>
         <Link  to={"/basket"}  style={{position: "relative"}}><SlBasket/><span className='count'>{basket.length}</span></Link> 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import svg0 from "../../data/img/svg0.png"
 import svg1 from "../../data/img/img.PNG"
 import svg2 from "../../data/img/svg2.png"
 import svg3 from "../../data/img/syg3.png"
@@ -40,6 +41,9 @@ export default function Slider() {
         modules={[Keyboard, Scrollbar, Navigation, Pagination]}
         className="mySwiper"
       >
+        <SwiperSlide>
+          <img src={svg0} alt="img" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={svg1} alt="img" />
         </SwiperSlide>

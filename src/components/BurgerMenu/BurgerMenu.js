@@ -9,9 +9,9 @@ const BurgerMenu = () => {
         <ul>
             <li><Link  to={"/"}>Գլխավոր</Link></li>
             <li><Link  to={"/about"}>Առաքում</Link></li>
-            <li><Link style={{position:"absolute"}} to={"/basket"}>Զանբյուղ</Link></li>
+            <li><Link style={{position:"absolute"}} to={"/basket"}>Զամբյուղ</Link></li>
         </ul>
-        <summary style={{listStyle:"none", cursor: "pointer", width:"fit-content"}}><AiOutlineMenu  style={{fontSize: "30px"} }/></summary>
+        <summary style={{fontSize:"1px"}} ><AiOutlineMenu  style={{fontSize: "30px"} }/></summary>
     </details>
   )
 }
